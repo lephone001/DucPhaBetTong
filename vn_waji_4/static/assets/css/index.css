@@ -1,4 +1,3 @@
-
 #lien-he.footer{padding:40px 0 28px;border-top:3px solid transparent;background:linear-gradient(#131a26,#131a26) padding-box,linear-gradient(to right,#185cb5 0%,#185cb5 50%,#ef1535 50%,#ef1535 100%) border-box;color:#b9c5d6;font:14px/1.65 Arial,Helvetica,sans-serif;text-align:left}
 #lien-he.footer .container{box-sizing:border-box;width:min(1180px,calc(100% - 32px));max-width:1180px;margin:0 auto}
 #lien-he.footer .footer-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr .9fr;gap:32px;align-items:start}
@@ -25,7 +24,6 @@
 @media(max-width:980px){ #lien-he.footer .footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px} #lien-he.footer .footer-directory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){ #lien-he.footer{padding-top:28px} #lien-he.footer .footer-grid{grid-template-columns:1fr;gap:24px} #lien-he.footer .footer-directory-grid{grid-template-columns:1fr} #lien-he.footer a{padding:8px 0} #lien-he.footer summary{padding-top:15px;padding-bottom:15px}}
 @media(prefers-reduced-motion:reduce){ #lien-he.footer a{transition:none}}
-
 .contact-24h{position:fixed;z-index:9999;left:20px;right:20px;bottom:22px;display:flex;justify-content:space-between;align-items:flex-end;pointer-events:none}
 .contact-24h__item{position:relative;box-sizing:border-box;display:flex;align-items:center;gap:13px;width:260px;min-height:82px;padding:13px 18px;border:1px solid rgba(255,255,255,.55);border-radius:20px;color:#fff;text-decoration:none!important;background:linear-gradient(110deg,#850014 0%,#c5001d 13%,#ef1535 28%,#a70018 44%,#e51732 49.3%,#082c94 50.7%,#0055c9 63%,#1597ef 78%,#0d3ba8 91%,#071c69 100%);box-shadow:0 12px 30px rgba(80,25,5,.32),0 0 18px rgba(255,105,45,.28);pointer-events:auto;animation:contact24hFloat 2.5s ease-in-out infinite}
 .contact-24h__item--zalo{background:linear-gradient(70deg,#850014 0%,#c5001d 13%,#ef1535 28%,#a70018 44%,#e51732 49.3%,#082c94 50.7%,#0055c9 63%,#1597ef 78%,#0d3ba8 91%,#071c69 100%);box-shadow:0 12px 30px rgba(95,58,0,.32),0 0 18px rgba(224,168,0,.3);animation-delay:.35s}
